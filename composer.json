@@ -1,0 +1,24 @@
+{
+    "name": "kyalo/neo",
+    "type": "library",
+    "description": "",
+    "homepage" : "https://github.com/davidkyalo/Laravel-Neo4j-Client",
+    "keywords": ["neo4j", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Kyalo"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "neoxygen/neoclient": "~2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": { "Kyalo\\Neo": "src/" }
+    },
+    "minimum-stability": "dev"
+}
